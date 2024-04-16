@@ -13,7 +13,7 @@ You must install it in a writable directory. The default in the included install
 
 After installation, navigate to that directory and carefully edit the settings.json file.
 You will need admin permissions to edit this file (if you installed `HA Viewer`, in the default location). 
-Your alternative choice is to install it somewhere else where windows doesn't get in the way, like `C:\HomeAssistant\HA Viewer`
+Your alternative choice is to install `HA Viewer` somewhere else where windows doesn't get in the way, like `C:\HomeAssistant\HA Viewer`
 If I get time, and anyone other than me, actually uses the thing, I'll tidy it up and put the data in the user's appdata folder. But for now, this is it.
 
 Anyway, edit the uri line (see below) to point to your homeassistant dashboard of choice, i.e. `http://homeassistant.local:8123/porch-control`, 
