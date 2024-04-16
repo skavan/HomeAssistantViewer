@@ -1,0 +1,21 @@
+{
+  "uri": "http://homeassistant.local:8123/porch-control",
+  "sizes": {
+    "default": {
+      "width": 460,
+      "height": 820
+    },
+    "phone": {
+      "width": 460,
+      "height": 820
+    },
+    "tablet": {
+      "width": 888,
+      "height": 820
+    },
+    "desktop": {
+      "width": 920,
+      "height": 1280
+    }
+  }
+}
