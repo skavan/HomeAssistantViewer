@@ -5,16 +5,24 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HA", "HA.csproj", "{B9F6C0F1-F2D1-430E-A082-F70A55909366}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HAV Installer", "..\HAV Installer\HAV Installer.vdproj", "{73F63D2A-C536-44FB-8C2E-B15E75F304B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9F6C0F1-F2D1-430E-A082-F70A55909366}.All|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F6C0F1-F2D1-430E-A082-F70A55909366}.All|Any CPU.Build.0 = Debug|Any CPU
 		{B9F6C0F1-F2D1-430E-A082-F70A55909366}.Debug|Any CPU.ActiveCfg = Release|Any CPU
 		{B9F6C0F1-F2D1-430E-A082-F70A55909366}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{B9F6C0F1-F2D1-430E-A082-F70A55909366}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9F6C0F1-F2D1-430E-A082-F70A55909366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F63D2A-C536-44FB-8C2E-B15E75F304B5}.All|Any CPU.ActiveCfg = Debug
+		{73F63D2A-C536-44FB-8C2E-B15E75F304B5}.Debug|Any CPU.ActiveCfg = Debug
+		{73F63D2A-C536-44FB-8C2E-B15E75F304B5}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
