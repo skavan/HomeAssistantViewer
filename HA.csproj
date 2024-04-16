@@ -6,12 +6,16 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>icons\homeassistant.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <IconFiles Include="icons\**\*.*" />
   </ItemGroup>
   <ItemGroup>
     <IconFiles Remove="icons\desktop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons\homeassistant.ico" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2420.47" />
