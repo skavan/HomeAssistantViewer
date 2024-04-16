@@ -8,7 +8,7 @@ You must edit `settings.json` to include your own HomeAssistant target URL.
 The little icons on the title bar, let you switch sizes quickly and you can set your default sizes in `settings.json`.
 
 ### **Important**:
-This project uses WebView2 (Edge). It cannot be installed into X:\Program Files\ because of the way WebView2 works. 
+This project uses WebView2 (Edge). It cannot be installed into `C:\Program Files\` because of the way WebView2 works. 
 You must install it in a writable directory. The default in the included installer is the `C:\ProgramData\HomeAssistant\HA Viewer` directory.
 
 After installation, navigate to that directory and carefully edit the settings.json file.
