@@ -1,8 +1,8 @@
 ## HomeAssistant Viewer
 
-A super simple Windows 10/11 desktop home assistant viewer app, designed to conserve real estate. I hate having a full browser windows just for HA, on my desktop and wanted a simple, phone like window.
-It's C# and uses Edge as the embedded browser. It doesn't do much. It justs loads a web page in a compact shell, with a few resizing presets.
+A super simple Windows 10/11 desktop home assistant viewer app, designed to conserve real estate. I hate having a full browser window just for HA on my desktop, and wanted a simple, phone like window, that I can leave in a corner of my screen.
 
+It's C# and uses Edge as the embedded browser. It doesn't do much. It just loads a web page in a compact shell, with a few resizing presets.
 You must edit `settings.json` to include your own HomeAssistant target URL.
 
 The little icons on the title bar, let you switch sizes quickly and you can set your default sizes in `settings.json`.
